@@ -2,7 +2,6 @@ package com.designpoint.project1.services.impl;
 
 
 import java.util.List;
-
 import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
@@ -10,10 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.designpoint.project1.entities.Category;
-
 import com.designpoint.project1.exceptions.ResourceNotFoundException;
 import com.designpoint.project1.paylods.CategoryDto;
-
 import com.designpoint.project1.repositoris.CategoryRepo;
 import com.designpoint.project1.service.CategoryService;
 

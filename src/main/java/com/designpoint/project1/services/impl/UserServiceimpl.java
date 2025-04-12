@@ -1,15 +1,14 @@
 package com.designpoint.project1.services.impl;
 
-import com.designpoint.project1.entities.*;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import com.designpoint.project1.exceptions.*;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.designpoint.project1.entities.User;
+import com.designpoint.project1.exceptions.ResourceNotFoundException;
 import com.designpoint.project1.paylods.UserDto;
 import com.designpoint.project1.repositoris.UserRepo;
 import com.designpoint.project1.service.UserService;

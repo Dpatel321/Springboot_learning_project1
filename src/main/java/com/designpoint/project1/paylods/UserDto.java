@@ -1,11 +1,9 @@
 package com.designpoint.project1.paylods;
 
-import io.micrometer.common.lang.NonNull;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
-
 import lombok.NoArgsConstructor;
 
 

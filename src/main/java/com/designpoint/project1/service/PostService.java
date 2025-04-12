@@ -2,7 +2,6 @@ package com.designpoint.project1.service;
 
 import java.util.List;
 
-import com.designpoint.project1.entities.Post;
 import com.designpoint.project1.paylods.PostDto;
 import com.designpoint.project1.paylods.PostResponse;
 
